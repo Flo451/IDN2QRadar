@@ -1,6 +1,6 @@
 # IDN2QRadar
 
-Scripting to send audit logs from SailPoint IDN to QRadar
+Scripting to send audit logs from SailPoint IDN to QRadar hosted in AWS.
 
 ## Project goal: 
 Send SailPoint IdentityNow (IDN) Event logs to QRadar SIEM. Once the events are in QRadar we can  build rules that trigger offenses if undesired behavior is observed.
