@@ -1,0 +1,12 @@
+[qradar-syslog-server]
+host = qradar.example.com
+port = 514
+
+[sailpoint.com]
+client_id = ReplaceWithClientID
+client_secret = ReplaceWithClientSecret
+tenant = Replace
+
+[aws-parameter-store]
+ACCESS_KEY = Replace
+SECRET_KEY = Replace
