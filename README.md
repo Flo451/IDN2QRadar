@@ -1,6 +1,9 @@
 # IDN2QRadar
 
-Scripting to send audit logs from SailPoint IDN to QRadar hosted in AWS.
+Send audit logs from SailPoint IDN to QRadar using AWS services to host the Docker container and periodically trigger the task on a schedule in AWS Fargate.
+
+Note: If you don't wish to use AWS services you can simply run the Python script locally (but you would need to refactor the logic to store the checkpoint timestamp e.g. in a local file) 
+
 
 ## Project goal: 
 Send SailPoint IdentityNow (IDN) Event logs to QRadar SIEM. Once the events are in QRadar we can  build rules that trigger offenses if undesired behavior is observed.
